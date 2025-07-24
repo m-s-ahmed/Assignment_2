@@ -129,6 +129,180 @@ h4 {
   padding: 20px 30px;
   margin-top: 10px;
 }
+/* lover section */
+
+.lover {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.lover-image img {
+  max-width: 80%;
+}
+.lover-image {
+  position: relative;
+  flex: 1;
+}
+
+.l2 {
+  width: 40%;
+  position: absolute;
+  top: -100px;
+  left: 300px;
+}
+.lover-content {
+  flex: 1;
+}
+
+.lover-content ul {
+  margin-left: 30px;
+}
+.lover-content ul li {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.lover-content h1 {
+  font-size: 50px;
+}
+
+.lover-title {
+  display: flex;
+  flex-direction: column;
+}
+
+/* latest */
+
+.latest {
+  max-width: 600px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  gap: 20px;
+}
+
+.latest h1 {
+  font-size: 50px;
+}
+#latest {
+  color: #e95a08;
+}
+
+/* latest down */
+
+.ld {
+  display: flex;
+  gap: 20px;
+}
+
+.left-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.card-1 {
+  background: url("../assets/deal-ana.png");
+}
+.card-2 {
+  background: url("../assets/deal-bloom.png");
+}
+
+.card-1,
+.card-2 {
+  border-radius: 12px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.overlay-text a {
+  font-size: 14px;
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.main-banner {
+  background: url("../assets/deal-zabo.png");
+  flex: 2;
+  /* height: 420px; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-banner h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-banner a {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 500;
+  color: white;
+}
+
+/* join */
+
+.join {
+  background: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 533px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.join h1 {
+  font-size: 50px;
+  color: white;
+}
+
+form {
+  display: flex;
+}
+form input[type="email"] {
+  width: 420px;
+  padding: 20px 50px;
+}
+form input[type="button"] {
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  padding: 20px 50px;
+}
 
 /* responsive */
 
@@ -177,6 +351,28 @@ h4 {
   }
 
   .plant-content p {
+    font-size: 1rem;
+  }
+  .lover {
+    flex-direction: column;
+    margin: 80px auto;
+  }
+  .lover-title {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .lover-title h1 {
+    flex-direction: row;
+    font-size: 2rem;
+  }
+  .lover-image img {
+    max-width: 100%;
+  }
+  .l2 {
+    display: none;
+  }
+  .lover-content ul li {
     font-size: 1rem;
   }
 }
