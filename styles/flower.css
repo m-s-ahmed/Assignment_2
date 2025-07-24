@@ -53,6 +53,12 @@
 .active {
   color: black;
 }
+.nav-content {
+  display: flex;
+}
+#anc {
+  text-decoration: none;
+}
 
 /* banner */
 .banner-container {
@@ -73,4 +79,38 @@
 .banner-content p {
   font-size: 22px;
   margin-top: 12px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 361px;
+  }
+  .nav-content ul {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  .nav-container figure img {
+    width: 50%;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .res-img {
+    max-width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+    margin-top: 28px;
+  }
+
+  .banner-content p {
+    font-size: 1rem;
+  }
 }
