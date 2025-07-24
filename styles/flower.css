@@ -304,6 +304,46 @@ form input[type="button"] {
   padding: 20px 50px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  align-items: flex-start;
+}
+
+.footer-content {
+  width: 320px;
+}
+.home-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-container ul li {
+  list-style: none;
+}
+
+.home-container ul li a {
+  text-decoration: none;
+}
+.feature-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-container ul li {
+  list-style: none;
+}
+
+.feature-container ul li a {
+  text-decoration: none;
+}
+.footer-logo {
+  display: flex;
+  gap: 20px;
+}
+
 /* responsive */
 
 @media screen and (max-width: 576px) {
