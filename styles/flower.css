@@ -242,7 +242,6 @@ h4 {
 .main-banner {
   background: url("../assets/deal-zabo.png");
   flex: 2;
-  /* height: 420px; */
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -274,15 +273,15 @@ h4 {
 .join {
   background: url("../assets/news-letter-bg.png");
   background-repeat: no-repeat;
-  max-width: 100%;
+  width: 100%;
   height: 533px;
   background-size: cover;
 
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .join h1 {
@@ -414,5 +413,51 @@ footer {
   }
   .lover-content ul li {
     font-size: 1rem;
+  }
+
+  .join {
+    background-size: cover;
+  }
+  .join h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .latest {
+    max-width: 300px;
+  }
+
+  .latest h1 {
+    font-size: 2rem;
+  }
+  .latest p {
+    font-size: 1rem;
+  }
+
+  .ld {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
+  form input {
+    max-width: 50%;
+  }
+
+  form input[type="email"] {
+    margin: 0;
+  }
+  form input[type="button"] {
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
