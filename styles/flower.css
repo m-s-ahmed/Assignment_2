@@ -28,6 +28,10 @@
   color: #8987a1;
 }
 
+.orange {
+  color: #e95a08;
+}
+
 /* navbar */
 
 .nav-container {
@@ -48,4 +52,25 @@
 
 .active {
   color: black;
+}
+
+/* banner */
+.banner-container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 120px;
+}
+
+.banner-content {
+  max-width: 570px;
+}
+
+.banner-content h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.banner-content p {
+  font-size: 22px;
+  margin-top: 12px;
 }
